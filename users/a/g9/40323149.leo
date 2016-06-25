@@ -1710,7 +1710,7 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
  
 </t>
 <t tx="leo.20160606102026.1">@a40323149_1.route('/ag9_2D')
-def ag9_2D():  
+def ag1_2D():  
     outstring = '''
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -1856,8 +1856,8 @@ spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
 '''
     return outstring
 </t>
-<t tx="leo.20160613093225.1">@a40323149_1.route('/ag9_2D1')
-def ag9_2D1():
+<t tx="leo.20160613093225.1">@c.route('/ag9_2D1')
+def ag1_2D1():
     outstring = '''
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;

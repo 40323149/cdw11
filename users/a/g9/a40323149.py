@@ -756,7 +756,7 @@ s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth'
 '''
     return outstring
 @a40323149_1.route('/ag9_2D')
-def ag9_2D():  
+def ag1_2D():  
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -901,8 +901,7 @@ spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
 </html>
 '''
     return outstring
-@a40323149_1.route('/ag9_2D1')
-def ag9_2D1():
+def ag1_2D1():
     outstring = '''
 <!DOCTYPE html>
 <html>
