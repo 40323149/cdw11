@@ -1710,7 +1710,7 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
  
 </t>
 <t tx="leo.20160606102026.1">@a40323149_1.route('/ag9_2D')
-def ag9_2D():
+def ag9_2D():  
     outstring = '''
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;

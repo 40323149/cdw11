@@ -756,7 +756,7 @@ s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth'
 '''
     return outstring
 @a40323149_1.route('/ag9_2D')
-def ag9_2D():
+def ag9_2D():  
     outstring = '''
 <!DOCTYPE html>
 <html>
